@@ -256,7 +256,7 @@ const FilterPanel = () => {
                     variant='contained'
                     onClick={e => {
                         e.preventDefault()
-                        dispatch({ type: 'SET_APPLY' })
+                        dispatch({ type: 'SET_APPLIED' })
                     }}
                 >
                     Apply
